@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/yardfile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Yard structured JSON file payloads without a heavyweight toolkit.",
+  "bin": {
+    "yardfile": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/yardfile.git"
+  },
+  "homepage": "https://theworker02.github.io/yardfile/",
+  "keywords": [
+    "yard",
+    "file",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
